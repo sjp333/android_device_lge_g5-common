@@ -88,7 +88,6 @@ PRODUCT_PACKAGES += \
     audio.usb.default \
     audio_amplifier.msm8996 \
     libaudio-resampler \
-    libqct_resampler \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
