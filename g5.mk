@@ -78,7 +78,7 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 # Generic MSM8996 configs
-$(call inherit-product, hardware/qcom/audio-caf/msm8996/configs/msm8996/msm8996.mk)
+$(call inherit-product, $(call project-path-for,qcom-audio)/configs/msm8996/msm8996.mk)
 
 PRODUCT_PACKAGES += \
     audiod \
