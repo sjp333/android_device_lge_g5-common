@@ -978,6 +978,7 @@ service qseeproxydaemon /system/vendor/bin/qseeproxydaemon
     class late_start
     user system
     group system
+    writepid /dev/cpuset/system-background/tasks
 
 # oneshot service that loads fpc tz app in early phase.
 service fpc_early_loader /system/bin/fpc_early_loader
